@@ -1,0 +1,655 @@
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap);
+
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+*{
+  font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+  font-weight: 2;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+h1,h2 {
+  letter-spacing: 2px;
+}
+
+h3,h4 {
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+section {
+  padding: 100px 0 0 0;
+}
+
+p {
+  margin-bottom: 30px;
+  line-height: 2;
+  color: #7e7e7e;
+}
+
+.heading-title {
+  margin-bottom: 100px;
+}
+
+.heading-title p {
+  letter-spacing: 1px;
+}
+
+.heading-title h2 {
+  margin-bottom: 0;
+}
+
+hr {
+  margin: 0;
+}
+
+.p-10 {
+  padding: 10px 0;
+}
+
+.circled-list {
+  padding-left: 18px;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+
+
+.col-12 {
+  margin: 0 15px;
+}
+
+
+
+/* #header */
+#header {
+    padding: 0 30px;
+    position: fixed;
+    z-index: 9999;
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+}
+
+#logo>a {
+  line-height: 100px;
+}
+
+.nav>li>a {
+  padding: 0 11px;
+  color: #555;
+  line-height: 100px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  color: #99ca45;
+  background-color: transparent;
+  transition: all 0.3s linear;
+}
+
+.nav-pills>li.active>a {
+  color: #99ca45;
+  background-color: transparent;
+}
+
+.nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color: #99ca45;
+  background-color: transparent;
+  transition: all 0.3s linear;
+}
+
+.nav>li>ul {
+  position: absolute;
+  padding: 20px 0;
+  z-index: 9999;
+  width: 200px;
+  background: #fff;
+  visibility: hidden;
+  opacity: 0;
+  border-top: 3px solid #99ca45;
+  box-shadow: 0 2px 5px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 2px 5px rgba(0,0,0,.1);
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.1);
+  -webkit-transform: translateZ(0);
+  text-align: left;
+  letter-spacing: 1px;
+  transition: all 0.3s ;
+}
+
+.nav li:hover>ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav>li>ul>li {
+  line-height: 2;
+  font-size: 15px;
+  padding:0 20px;
+  list-style:none;
+}
+
+.nav>li>ul>li>a {
+  display: block;
+  padding: 6px 20px;
+  width: 160px;
+  color: #555;
+  transition: all 0.3s;
+}
+
+.nav>li>ul>li>a:hover {
+  background-color:rgba(0,0,0,.03); 
+  color: #99ca45;
+  text-decoration: none;
+
+}
+
+
+
+
+
+
+/* .header */
+
+.header-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 200px 0 ;
+  background-image: url(https://moto7.tw/imgs/WeMo-Scooter-%E5%AE%A3%E5%82%B3%E7%85%A781.jpg)!important;
+  background-color: rgba(0,0,0,0.1);
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+
+}
+
+.header h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.breadcrumb {
+    padding: 15px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #26322E;
+    border-radius: 4px;
+    opacity: 0.7;
+    letter-spacing: 1px;
+}
+
+.breadcrumb a {
+  color: #FFF;
+}
+
+.breadcrumb .active {
+  color: #BBDB83;
+  font-size: 14px;
+}
+
+.breadcrumb a:active, .breadcrumb a:hover {
+  color: #BBDB83;
+  text-decoration: none;
+}
+
+/* .services */
+.services h3 {
+  margin-bottom: 20px;
+}
+
+.services .col-sm-6{
+  margin-bottom: 80px;
+}
+
+/* other-services */
+.other-services {
+  background-image: url(http://massive.markup.themebucket.net/assets/img/parallax/5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0;
+  color: white;
+}
+
+.other-services h3 {
+  margin-bottom: 20px;
+}
+
+.other-services p {
+  color: white;
+}
+
+.other-services hr {
+  margin: 30px auto;
+  border-top-width: 2px;
+  width: 36px;
+}
+
+/* special-services */
+.special-services .subtitle{
+  color: #d6b161;
+} 
+
+.special-services .btn {
+  border:none;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  color: #FFF;
+  background-color: #000;
+  font-size: 12px;
+  font-weight: 200;
+  transition: 0.2s linear all;
+}
+.special-services .btn:hover {
+  background-color: #d6b161;
+}
+
+/* .bubble */
+.bubble.comment {
+  position: relative; 
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.bubble.comment p {
+  margin:  0;
+}
+
+.triangle {
+  position: absolute;
+  bottom: -14px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 14px 14px 0 14px;
+  border-color: #f5f5f5 transparent transparent transparent;
+}
+
+.testimonial-meta {
+  margin-top: 15px;
+}
+
+.testimonial-meta .name {
+  margin: 0;
+  font-size: 14px;
+}
+
+.testimonial-meta .title {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #7f7f7f;
+}
+
+/* #footer */
+#footer {
+  background-color: rgba(0,0,0,0.7);
+  margin-top: 100px;
+}
+#footer>.container {
+  padding: 40px 15px;
+}
+#footer h4 {
+  color: #fff;
+  font-size: 14px;
+}
+ul.arrow-list {
+  padding: 0;
+  list-style-type: none;
+}
+ul.arrow-list li {
+  border-bottom: 1px solid #333;
+}
+ul.arrow-list a {
+  color: #a2a2a2;
+  text-decoration: none;
+  line-height: 3;
+}
+ul.arrow-list a:before {
+  content: ">";
+  padding-right: 15px;
+}
+.recent-work li {
+  margin-bottom: 10px;
+}
+
+#footer>.bottom {
+  border-top: 1px solid #2c2c2c;
+  padding: 35px 0;
+  background-color: rgba(0,0,0,0.3);
+  color: #FFF;
+}
+.copyright {
+  line-height: 30px;
+}
+.bottom ul {
+  margin: 0;  
+}
+.social-media li {
+  margin-left: 15px;
+  border: 1px solid #5a5a5a;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+.social-media a {
+  color: #5a5a5a;
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1100px){
+  .nav {
+    opacity: 0;
+    visibility: none;
+  }
+
+}
+
+@media (min-width: 1200px){
+  .container {
+    width: 85%;
+  }
+  .header-container {
+    width: 65%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*部落格首頁*/
+.blog-header img {
+  width: 40%; 
+  margin: 30px auto; 
+  display: block;
+}
+
+.blog-header h1 {
+  line-height: 2;
+  color: #ACDFCF;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 8px;
+}
+
+.show-text {
+  position: relative;
+}
+
+.show-text:before {
+  content: "那些關於 WeMo\A\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0的大小事"; /*產生一個空的元素*/
+  white-space: pre-line;
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: 1px;
+  position: relative; /*利用absolute定位*/
+  top: 200px;
+  left: -60%;  /*調整位置*/
+  opacity: 0;
+  overflow: visible;
+}
+
+.show-text:after {
+  content: "盡在 WeMo 部落格！"; /*產生一個空的元素*/
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 1px;
+  position: relative; /*利用absolute定位*/
+  top: -150px;
+  right: -100%;  /*調整位置*/
+  opacity: 0;
+  overflow: visible;
+}
+
+.show-text:hover:before {
+  top: 150px;
+  left: -30%;  /*調整位置*/
+  opacity: .8;
+  transition: all 1s ease-in-out;
+}
+
+.show-text:hover:after {
+  top: -150px;
+  right: -80%;  /*調整位置*/
+  opacity: .8;
+  transition: all 0.7s ease-in-out;
+  transition-delay: 0.3s;
+}
+
+
+
+
+ .slider {
+        width: 90%;
+        height: auto;
+        margin: -100px auto 0 auto;
+    }
+
+    .slick-slide {
+      margin: 0px 10px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+      text-align: center;
+      transform:scale(1,1);transition: all 0.3s ease-out;
+    }
+
+    .slick-slide img:hover {
+      transform:scale(1.05,1.05);
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: grey;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .8;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+    .pic{
+      width:500px; height:350px;overflow:hidden;
+    }
+    .pic img{
+      transform:scale(1,1);transition: all 1s ease-out;
+    }
+    .pic img:hover{
+      transform:scale(1.2,1.2);
+    }
+
+
+
+
+    /*文章分類*/
+
+    .category li {
+      list-style: none;   
+      margin-left: -60px;
+      padding-bottom: 5px;
+    }
+    .category li a {
+      font-size: 16px;
+      padding:10px;
+      display: block;
+      padding: 5px 20px;
+      width: 100%;
+      color: #555;
+      transition: all .1s ease-in-out;
+    }
+
+    .category li a:hover {
+      background-color:rgba(0,0,0,.03); 
+      color: #00C9E7;
+      text-decoration: none;
+    }
+
+    
+    .img-box {
+      height: auto;
+      overflow: hidden;
+    }
+
+    .article img:hover {
+      transform:scale(1.1,1.1);
+      transition: all .3s ease-in-out;
+    }
+
+    .article .subtitle {
+      color: grey;
+      font-size: 10px;
+    }
+
+    .article a{
+      color: grey;
+      text-decoration: none;
+    }
+
+    .article h2 {
+      color: #94C950;
+      font-size: 24px;
+    }
+
+    .article h2:hover {
+      color: #00C9E7;
+      transition: all 0.3s ease-in-out;
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*內文頁*/
+
+.content-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.content-body .btn-success {
+  outline: none;
+}
+.content-body .btn-success:focus{
+    outline: 0;
+}
+
+
+.content-body h1,.content-body h2 {
+  margin: 20px 0;
+  padding: 0;
+}
+.content-body h3,.content-body h4 {
+  font-size: 24px;
+  margin: 15px 0;
+  padding: 0;
+}
+.content-body h5,.content-body h6 {
+  margin: 10px 0;
+  padding: 0;
+}
+.content-body p {
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin: 10px 0 ;
+}
+.content-body .content-text {
+  padding: 20px 0;
+}
+.content-body .btn {
+  margin: 10px 0;
+}
+.content-body .btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 15px;
+}
+
+.content-body li {
+  color: #7e7e7e;
+  font-size: 18px;
+  margin: 10px 0 ;
+  padding: 5px 0 ;
+}
